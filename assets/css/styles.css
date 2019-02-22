@@ -40,6 +40,7 @@ header .subtitle {
     margin: 0 auto;
     justify-content: space-evenly;
     transition: .3s all ease-in-out;
+    max-width: 920px;
 }
 
 #table-student .student-col {
