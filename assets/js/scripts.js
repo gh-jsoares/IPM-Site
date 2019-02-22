@@ -18,6 +18,8 @@ function sibling(elem) {
     return elem
 }
 
-document.getElementsByClassName('section-title').forEach(element => {
-    element.addEventListener('click', toggleSiblingVisible)
-});
+Array.forEach(document.getElementsByClassName('section-title'), element => {
+    element.addEventListener('click', () => {
+        toggleSiblingVisible(element)
+    })
+})

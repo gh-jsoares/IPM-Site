@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #191919
+    background: #dddeee
 }
 
 /**************/
@@ -14,17 +14,17 @@ body {
 
 header {
     text-align: center;
-    margin: 40px 0;
+    margin: 30px 0;
     padding: 0 15px;
 }
 
 header .title {
-    color: #ffffff;
+    color: #16a085;
     margin-bottom: 5px;
 }
 
 header .subtitle {
-    color: #dddddd;
+    color: #1abc9c;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -40,24 +40,17 @@ header .subtitle {
 
 #table-student td {
     padding: 0 20px;
-    color: #dddddd;
+    color: #2c3e50;
 }
 
-#table-student #student-numbers {
+#table-student #student-numbers td {
+    color: #34495e !important;
     font-weight: bold;
 }
 
 #table-student .img-student {
-    max-height: 125px;
+    max-height: 100px;
     border-radius: 2px;
-}
-
-#table-student .img-student::after {
-    content: '';
-    width: 1px;
-    background: black;
-    height: 100%;
-    display: block;
 }
 
 /*************/
@@ -65,19 +58,113 @@ header .subtitle {
 /*************/
 
 #links {
-    margin: 50px auto;
+    margin: 20px auto;
     max-width: 920px;
     padding: 0 15px;
 }
 
+.section {
+    opacity: .8;
+    transition: .3s all ease-in-out;
+}
+
+.section:hover {
+    opacity: 1;
+}
+
 .section-title {
-    border-bottom: 1px solid black;
+    cursor: pointer;
+    background: #2980b9;
+    padding: 5px 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.inner_section {
+    margin: 0 0 20px;
+    top: 0;
+    opacity: 1;
+    position: relative;
+    transition: .3s all ease-in-out;
+    background: #ffffff;
+    padding: 10px 5px;
+    box-shadow: 10px 10px 0 -3px #34495e;
+}
+
+.inner_section a {
+    color: #7f8c8d;
+    text-decoration: none;
+    opacity: .8;
+    display: inline-block;
+}
+
+.inner_section a:hover{
+    opacity: 1;
+    color: #2980b9;
+    text-decoration: underline;
 }
 
 /***************/
 /*** HELPERS ***/
 /***************/
 
+
 .hidden {
-    display: none;
+    margin: 0;
+    top: -50px;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 0px;
+    overflow: hidden;
+    color: transparent !important;
+}
+
+.hidden a {
+    color: transparent !important;
+}
+
+.bg-red {
+    background: #e74c3c !important;
+    color: #ffffff !important;
+}
+
+.bg-green {
+    background: #2ecc71 !important;
+    color: #ffffff !important;
+}
+
+.bg-blue {
+    background: #3498db !important;
+    color: #ffffff !important;
+}
+
+.bg-yellow {
+    background: #f39c12 !important;
+    color: #ffffff !important;
+}
+
+.bg-purple {
+    background: #9b59b6 !important;
+    color: #ffffff !important;
+}
+
+.text-red {
+    color: #e74c3c !important;
+}
+
+.text-green {
+    color: #2ecc71 !important;
+}
+
+.text-blue {
+    color: #3498db !important;
+}
+
+.text-yellow {
+    color: #f39c12 !important;
+}
+
+.text-purple {
+    color: #9b59b6 !important;
 }
