@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background: #191919
+}
+
+/**************/
+/*** HEADER ***/
+/**************/
+
+header {
+    text-align: center;
+    margin: 40px 0;
+    padding: 0 15px;
+}
+
+header .title {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+header .subtitle {
+    color: #dddddd;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*************/
+/*** TABLE ***/
+/*************/
+
+#table-student {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#table-student td {
+    padding: 0 20px;
+    color: #dddddd;
+}
+
+#table-student #student-numbers {
+    font-weight: bold;
+}
+
+#table-student .img-student {
+    max-height: 125px;
+    border-radius: 2px;
+}
+
+#table-student .img-student::after {
+    content: '';
+    width: 1px;
+    background: black;
+    height: 100%;
+    display: block;
+}
+
+/*************/
+/*** LINKS ***/
+/*************/
+
+#links {
+    margin: 50px auto;
+    max-width: 920px;
+    padding: 0 15px;
+}
+
+.section-title {
+    border-bottom: 1px solid black;
+}
+
+/***************/
+/*** HELPERS ***/
+/***************/
+
+.hidden {
+    display: none;
+}
