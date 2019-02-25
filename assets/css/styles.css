@@ -107,6 +107,7 @@ header .subtitle {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 
 .section-title i {
@@ -122,6 +123,7 @@ header .subtitle {
     background: #ffffff;
     padding: 10px 5px;
     box-shadow: 10px 10px 0 -3px #34495e;
+    z-index: 0;
 }
 
 .inner_section a {
