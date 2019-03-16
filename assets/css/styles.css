@@ -127,7 +127,7 @@ header .subtitle {
 }
 
 .inner_section a {
-    color: #7f8c8d;
+    color: #73717e;
     text-decoration: none;
     opacity: .8;
     display: inline-block;
@@ -142,6 +142,18 @@ header .subtitle {
 /***************/
 /*** HELPERS ***/
 /***************/
+
+a.disabled {
+    cursor: not-allowed;
+    color: #b0bcbd;
+}
+
+a.disabled:hover {
+    cursor: not-allowed;
+    color: #b0bcbd;
+    text-decoration: none;
+    opacity: .8;
+}
 
 .hidden {
     margin: 0;
