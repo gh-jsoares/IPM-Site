@@ -1,0 +1,3 @@
+[submodule "prototipo1-beta"]
+	path = prototipo1-beta
+	url = git@github.com:JDinis99/IPM.git
