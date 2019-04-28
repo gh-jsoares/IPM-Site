@@ -4,3 +4,6 @@
 [submodule "prototipo1-release"]
 	path = prototipo1-release
 	url = git@github.com:JDinis99/IPM.git
+[submodule "prototipo2-beta"]
+	path = prototipo2-beta
+	url = git@github.com:JDinis99/IPM.git
