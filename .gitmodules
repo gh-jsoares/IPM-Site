@@ -7,3 +7,6 @@
 [submodule "prototipo2-beta"]
 	path = prototipo2-beta
 	url = git@github.com:JDinis99/IPM.git
+[submodule "prototipo2-release"]
+	path = prototipo2-release
+	url = git@github.com:JDinis99/IPM.git
